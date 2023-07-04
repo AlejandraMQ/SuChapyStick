@@ -1,0 +1,29 @@
+
+header{
+    background-color:rgb(245, 245, 245);
+    padding: 10px;
+    font-weight: bold;
+}
+
+.navbar-brand {
+   
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 48px;
+}
+.carousel-inner{
+    max-height: 680px;
+}
+.nosotros{
+    text-align: justify;
+    line-height: 2em;
+}
+.btn-primary{
+    background-color:blueviolet;
+}
+
+.lista{
+    font-size: 30px;
+    
+}
+
