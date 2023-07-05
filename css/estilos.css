@@ -26,4 +26,12 @@ header{
     font-size: 30px;
     
 }
+.galeria{
+    margin: 1em;
+    display: flex;
+    flex-wrap: wrap;
+}
+img .galery{
+    max-width: 320px;
+}
 
