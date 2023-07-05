@@ -26,12 +26,20 @@ header{
     font-size: 30px;
     
 }
-.galeria{
-    margin: 1em;
-    display: flex;
-    flex-wrap: wrap;
+
+#galeria .col-lg-4{
+    margin: 0 !important;
+    padding: 25px;
 }
-img .galery{
-    max-width: 320px;
+#galeria img {
+    max-width: 100%;
+    height: 350px;
+    width: 400px;
 }
+#galeria img:hover {
+    border: 5px solid white;
+}
+
+
+
 
