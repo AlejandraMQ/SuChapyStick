@@ -1,3 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 
 header{
     background-color:rgb(245, 245, 245);
@@ -8,11 +14,11 @@ header{
 .navbar-brand {
    
     font-weight: bold;
-    color: blueviolet;
+    color: blueviolet;  
     font-size: 48px;
 }
 .carousel-inner{
-    max-height: 680px;
+    max-height: 620px;
 }
 .nosotros{
     text-align: justify;
@@ -26,4 +32,47 @@ header{
     font-size: 30px;
     
 }
+
+#galeria .col-lg-4{
+    margin: 0 !important;
+    padding: 25px;
+
+}
+#galeria img {
+    max-width: 100%;
+    height: 350px;
+    width: 400px;
+}
+#galeria img:hover {
+    border: 5px solid white;
+}
+#subli .col-lg-4{
+    margin: 0 !important;
+    padding: 25px;
+
+}
+#subli img {
+    max-width: 100%;
+    height: 350px;
+    width: 400px;
+}
+#subli img:hover {
+    border: 5px solid white;
+}
+#chapitas .col-lg-4{
+    margin: 0 !important;
+    padding: 25px;
+
+}
+#chapitas img {
+    max-width: 100%;
+    height: 350px;
+    width: 400px;
+}
+#chapitas img:hover {
+    border: 5px solid white;
+}
+
+
+
 
