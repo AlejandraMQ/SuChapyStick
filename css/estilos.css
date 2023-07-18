@@ -393,7 +393,7 @@ kbd kbd {
   font-size: 1em;
 }
 
-figure {
+figure, .container-img .box-img img {
   margin: 0 0 1rem;
 }
 
@@ -12763,6 +12763,22 @@ p {
   font-size: 1.3rem;
 }
 
+h1, .h1 {
+  font-size: 2rem;
+}
+
+h2, .h2 {
+  font-size: 1.9rem;
+}
+
+h3, .h3 {
+  font-size: 1.6rem;
+}
+
+h4, .h4 {
+  font-size: 1.4rem;
+}
+
 .text-justify {
   text-align: justify;
 }
@@ -12772,7 +12788,6 @@ header {
   padding: 10px;
   font-weight: bold;
 }
-
 header .navbar-brand {
   font-weight: bold;
   color: blueviolet;
@@ -12799,7 +12814,6 @@ header .navbar-brand {
   height: 350px;
   width: 400px;
 }
-
 .galeria-img:hover {
   border: 5px solid white;
 }
@@ -12815,20 +12829,15 @@ header .navbar-brand {
   grid-template-rows: 250px;
   gap: 20px;
 }
-
-.container-img .box-img figure {
+.container-img .box-img figure, .container-img .box-img img {
   width: 100%;
   height: 100%;
 }
-
 .container-img .box-img img {
-  width: 100%;
-  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-
-.box-img:hover {
+.container-img .box-img:hover {
   border: 5px solid white;
 }
 
