@@ -1,0 +1,9 @@
+{
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.3.0"
+  },
+  "scripts": {
+    "build": "npx sass --no-source-map --style=compressed ./scss:./css"
+  }
+}
