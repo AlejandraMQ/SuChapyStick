@@ -1,17 +1,24 @@
-@mixin tamanioFont(){
-    p{
-        font-size: 1.3rem;
-    }
+@mixin tamanioFont($tamanio){
+
     h1{
-        font-size: 2rem;
+        font-size: $tamanio;
     }
     h2{
-        font-size: 1.9rem;
+        font-size: $tamanio - 0.1;
     }
     h3 {
-        font-size: 1.6rem;
+        font-size: $tamanio - 0.2;
     }
     h4 {
-        font-size: 1.4rem;
+        font-size: $tamanio - 0.4;
+    }
+    p{
+        font-size: $tamanio - 1.1;
     }
 }
+
+@mixin sizes($alto, $ancho){
+    width: $ancho;
+    height: $alto;
+}
+
