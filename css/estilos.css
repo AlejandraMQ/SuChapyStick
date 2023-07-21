@@ -12840,6 +12840,122 @@ header .navbar-brand {
   border: 5px solid white;
 }
 
+.bon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 65vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  background: rgb(163, 91, 230);
+}
+.bon .images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  overflow: hidden;
+  min-width: 600px;
+  max-width: 850px;
+  width: calc(100% - 100px);
+  height: 550px;
+}
+.bon .images .image {
+  position: relative;
+  overflow: hidden;
+  min-width: 60px;
+  margin: 10px;
+  background-size: auto 100%;
+  background-position: center;
+  cursor: pointer;
+  -webkit-transition: 0.5s cubic-bezier(0.1, 0.1, 0.1, 0.1);
+  transition: 0.5s cubic-bezier(0.1, 0.1, 0.1, 0.1);
+}
+.bon .images .image.active {
+  -webkit-box-flex: 10000;
+      -ms-flex-positive: 10000;
+          flex-grow: 10000;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  max-width: 600px;
+  margin: 0;
+  border-radius: 25px;
+  background-size: auto 100%;
+}
+.bon .images .image.active .label {
+  background: black;
+  padding: 10px;
+  border-radius: 50px;
+  bottom: 15px;
+  left: 15px;
+  right: 15px;
+}
+.bon .images .image:not(.active) {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  border-radius: 25px;
+}
+.bon .images .image:not(.active) .label {
+  bottom: 20px;
+  left: 10px;
+}
+.bon .images .image:not(.active) .label .info {
+  display: none;
+}
+.bon .images .image .label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+}
+.bon .images .image .label .icon {
+  font-size: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: black;
+  min-width: 40px;
+  height: 50px;
+  border-radius: 50%;
+  color: blueviolet;
+}
+.bon .images .image .label .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 10px;
+  color: #d7d7d7;
+}
+.bon .images .image .label .info .mai {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
 @media screen and (max-width: 768px) {
   .container-img {
     width: 90%;
@@ -12872,5 +12988,37 @@ header .navbar-brand {
   }
   .lista {
     font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 718px) {
+  .bon .images {
+    min-width: 520px;
+  }
+  .bon .images .image:nth-child(5) {
+    display: none;
+  }
+}
+@media screen and (max-width: 638px) {
+  .bon .images {
+    min-width: 440px;
+  }
+  .bon .images .image:nth-child(4) {
+    display: none;
+  }
+}
+@media screen and (max-width: 538px) {
+  .bon .images {
+    min-width: 360px;
+  }
+  .bon .images .image:nth-child(3) {
+    display: none;
+  }
+}
+@media screen and (max-width: 478px) {
+  .bon .images {
+    min-width: 280px;
+  }
+  .bon .images .image:nth-child(2) {
+    display: none;
   }
 }/*# sourceMappingURL=estilos.css.map */
