@@ -3,7 +3,7 @@
 @import "reset";
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
-@include tamanioFont(2.4rem);
+@include tamanioFont(3rem);
 
 .text-justify {
   text-align: justify;
@@ -17,7 +17,7 @@ header {
   .navbar-brand {
     font-weight: bold;
     color: blueviolet;
-    font-size: 48px;
+    font-size: 50px;
   }
 }
 
