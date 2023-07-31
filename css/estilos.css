@@ -12710,23 +12710,23 @@ textarea.form-control-lg {
   }
 }
 h1, .h1 {
-  font-size: 3rem;
-}
-
-h2, .h2 {
-  font-size: 2.7rem;
-}
-
-h3, .h3 {
   font-size: 2.5rem;
 }
 
-h4, .h4 {
+h2, .h2 {
+  font-size: 2.2rem;
+}
+
+h3, .h3 {
   font-size: 2rem;
 }
 
+h4, .h4 {
+  font-size: 1.5rem;
+}
+
 p {
-  font-size: 1.3rem;
+  font-size: 1.6rem;
 }
 
 .text-justify {
@@ -12901,9 +12901,10 @@ header .navbar-brand {
   margin-left: 10px;
   color: #d7d7d7;
 }
-.bon .images .image .label .info .mai {
+
+.mai {
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -12914,7 +12915,7 @@ header .navbar-brand {
     grid-template-rows: 200px;
   }
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 320px) {
   .container-img {
     width: 80%;
     height: 88%;
@@ -12931,24 +12932,45 @@ header .navbar-brand {
     font-size: 1rem;
   }
   h1, .h1 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   h2, .h2 {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
+  }
+  h3, .h3 {
+    font-size: 1.1rem;
   }
   h4, .h4 {
-    font-size: 1.2rem;
+    font-size: 0.9rem;
+  }
+  .mai {
+    font-size: 1rem;
   }
   .lista {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 }
-@media screen and (max-width: 718px) {
+@media screen and (max-width: 768px) {
   .bon .images {
     min-width: 520px;
   }
   .bon .images .image:nth-child(5) {
     display: none;
+  }
+  p {
+    font-size: 1.1rem;
+  }
+  h1, .h1 {
+    font-size: 1.5rem;
+  }
+  h2, .h2 {
+    font-size: 1.4rem;
+  }
+  h4, .h4 {
+    font-size: 1.3rem;
+  }
+  .lista {
+    font-size: 1.5rem;
   }
 }
 @media screen and (max-width: 638px) {
@@ -12957,6 +12979,21 @@ header .navbar-brand {
   }
   .bon .images .image:nth-child(4) {
     display: none;
+  }
+  p {
+    font-size: 1rem;
+  }
+  h1, .h1 {
+    font-size: 1.5rem;
+  }
+  h2, .h2 {
+    font-size: 1.4rem;
+  }
+  h4, .h4 {
+    font-size: 1.3rem;
+  }
+  .lista {
+    font-size: 1.5rem;
   }
 }
 @media screen and (max-width: 538px) {
@@ -12973,5 +13010,20 @@ header .navbar-brand {
   }
   .bon .images .image:nth-child(2) {
     display: none;
+  }
+  p {
+    font-size: 0.9rem;
+  }
+  h1, .h1 {
+    font-size: 1.2rem;
+  }
+  h2, .h2 {
+    font-size: 1.1rem;
+  }
+  h4, .h4 {
+    font-size: 0.9rem;
+  }
+  .lista {
+    font-size: 1.1rem;
   }
 }/*# sourceMappingURL=estilos.css.map */

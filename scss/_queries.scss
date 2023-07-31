@@ -7,7 +7,7 @@
     }
   }
   
-  @media screen and (max-width:360px) {
+  @media screen and (max-width:320px) {
   
     .container-img {
       width: 80%;
@@ -25,29 +25,51 @@
       font-size: 1rem;
     }
     h1{
-      font-size: 1.5rem;
+      font-size: 1.2rem;
     }
     h2 {
-      font-size: 1.3rem;
+      font-size: 1.1rem;
+    }
+    h3{
+      font-size: 1.1rem;
     }
     h4 {
-      font-size: 1.2rem;
+      font-size: 0.9rem;
+    }
+    .mai{
+      font-size: 1rem;
     }
     
     .lista{
-      font-size: 1.2rem;
+      font-size: 1.1rem;
     }
   
   }
 
 
-  @media screen and (max-width: 718px) {
+  @media screen and (max-width: 768px) {
 
     .bon .images {
         min-width: 520px;
     }
     .bon .images .image:nth-child(5) {
         display:none;
+    }
+    p{
+      font-size: 1.1rem;
+    }
+    h1{
+      font-size: 1.5rem;
+    }
+    h2 {
+      font-size: 1.4rem;
+    }
+    h4 {
+      font-size: 1.3rem;
+    }
+    
+    .lista{
+      font-size: 1.5rem;
     }
 }
 
@@ -58,6 +80,22 @@
     }
     .bon .images .image:nth-child(4) {
         display:none;
+    }
+    p{
+      font-size: 1rem;
+    }
+    h1{
+      font-size: 1.5rem;
+    }
+    h2 {
+      font-size: 1.4rem;
+    }
+    h4 {
+      font-size: 1.3rem;
+    }
+    
+    .lista{
+      font-size: 1.5rem;
     }
 }
 @media screen and (max-width: 538px) {
@@ -76,6 +114,23 @@
     }
     .bon .images .image:nth-child(2) {
         display:none;
+    }
+
+    p{
+      font-size: 0.9rem;
+    }
+    h1{
+      font-size: 1.2rem;
+    }
+    h2 {
+      font-size: 1.1rem;
+    }
+    h4 {
+      font-size: 0.9rem;
+    }
+    
+    .lista{
+      font-size: 1.1rem;
     }
 }
 
