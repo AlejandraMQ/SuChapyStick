@@ -3,7 +3,7 @@
 @import "reset";
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
-@include tamanioFont(3rem);
+@include tamanioFont(2.5rem);
 
 .text-justify {
   text-align: justify;
@@ -153,11 +153,10 @@ header {
       color: #d7d7d7;
     }
 
-    .image .label .info .mai {
-      font-weight: bold;
-      font-size: 2rem;
-    }
   }
 }
-
+.mai {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
 @import "queries";
